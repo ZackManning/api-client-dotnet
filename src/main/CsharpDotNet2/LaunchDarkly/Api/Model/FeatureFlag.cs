@@ -125,6 +125,7 @@ namespace LaunchDarkly.Api.Model {
     /// </summary>
     [DataMember(Name="_maintainer", EmitDefaultValue=false)]
     [JsonProperty(PropertyName = "_maintainer")]
+    [JsonIgnore]
     public Member Maintainer { get; set; }
 
     /// <summary>
